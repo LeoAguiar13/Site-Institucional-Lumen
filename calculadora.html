@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Financeiro</title>
+
+ <h1> Calculadora Financeira </h1> 
+
+Horas com energia ligada:<input id="horaDia"><br><br> 
+Valor da Conta de Luz:<input id="valorConta"><br><br>
+<button onclick = "calcHora()"> Calcular Consumo</button><br><br>
+<span id="msgConsumo"></span>
+<br><br>
+<span id="msgEconomia"></span>
+</head>
+<body> 
+</body>
+</html>
+<script>
+function calcHora() {
+    msgConsumo.innerHTML= `Em um mês o gasto de energia é: ${((80 * (horaDia.value)  * 30))/1000}KWh`;
+    msgEconomia.innerHTML =`Se você cortar o consumo desnecessario, esse sera o resultado: ${((30 * 0.1420)*(horaDia.value))} mais barato!`;
+}
+</script>

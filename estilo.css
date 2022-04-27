@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    background: #18075e;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    border-bottom: 3px solid #0f0536;
+    background-color: #210b7c;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+
+.header .container {
+    justify-content: space-between;
+}
+
+.header ul .aqui {
+    font-weight: 800;
+}
+
+
+.titulo {
+    color: #ffff00;
+}
+
+.navBar {
+    color: #ffff00;
+    list-style: none;
+    ;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    padding: 0;
+    justify-items: center;
+    align-items: center;
+}
+
+/* fim do cabeçalho */
+
+/* começo do banner */
+
+.banner {   
+    height: 500px;
+    color: white;
+    display: flex;
+}
+
+.banner .container p span {
+    font-weight: 1000;
+}
+
+.banner .container {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #210b7c;
+    background-color: #c2c200;
+    border-radius: 7px;
+    height: auto;
+    width: auto;
+}
+
+/* Fim do banner */
+
+/* Comeco do Social */
+
+.social {
+    border-top: 3px solid #060218;
+    background-color: #0f0536;
+    display: flex;
+    color: white;
+}
+
+.social .container .boxes .box img {
+    width: 200px;
+}
+
+.social .container .boxes {
+    display: flex;
+
+}
+
+.box {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Final do Social */
+
+/* Comeco do Footer */
+
+.footer {
+    background-color: #060218;
+    border-top: 3px solid #03010e;
+    height: 150px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+}
+.footer .container {
+    justify-content: center;
+}
+
+a {
+    color: #e3b062;
+    text-decoration: none;
+}
+
+.banner .container .card {
+    background-color: beige;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: palevioletred;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.card h1 {
+    font-size: 30px;
+}
+
+.card h4 {
+    font-size: 16px;
+}
+
+.card input {
+    border: palevioletred solid 2px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card button {
+    width: 100px;
+    height: 50px;
+    background-color: palevioletred;
+    margin-top: 30px;
+    font: 700 20px monospace;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}

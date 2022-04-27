@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    background: #18075e;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    border-bottom: 3px solid #0f0536;
+    background-color: #210b7c;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+
+.header .container {
+    justify-content: space-between;
+}
+
+.header ul .aqui {
+    font-weight: bolder;
+}
+
+.titulo input {
+    margin-left: 25px;
+    border-radius: 4px;
+}
+
+.titulo button {
+    border-radius: 10px;
+}
+
+
+.titulo {
+    color: #ffff00;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.titulo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.navBar {
+    color: #ffff00;
+    list-style: none;
+    ;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    padding: 0;
+    justify-items: center;
+    align-items: center;
+}
+
+/* fim do cabeçalho */
+
+/* começo do banner */
+
+.banner {
+    background-image: url("imgs/bg-jelly-fish-para-home.png");
+    height: 500px;
+    color: white;
+    display: flex;
+}
+
+.banner .container p span {
+    font-weight: 1000;
+}
+
+.banner .container {
+    font-size: 36px;
+    justify-content: center;
+}
+.banner .container p{
+    width: 10%;
+}
+
+/* Fim do baner */
+
+/* Comeco do Social */
+
+.social {
+    background-color: #ffff00;
+    display: flex;
+}
+
+.social .container .boxes .box img {
+    width: 200px;
+}
+
+.social .container .boxes {
+    display: flex;
+
+}
+
+.box {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Final do Social */
+
+/* Comeco do Footer */
+
+.footer {
+    background-color: #210b7c;
+    height: 230px;
+    color: #ffff00;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    border-top: 3px solid #0f0536;
+    margin-top: 100px;
+}
+.footer .container {
+    justify-content: center;
+}
+
+a {
+    color: #ffff00;
+    text-decoration: none;
+}
+
+.banner .container .card {
+    background-color: #d8d800;
+    height: 490px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: #18075e;
+    align-items: center;
+    border-radius: 4px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.banner .container .card a{
+    color: #18075e;
+}
+
+.card .cadastro {
+    font-size: medium;
+}
+
+.card h1 {
+    font-size: 30px;
+}
+
+.card h4 {
+    font-size: 16px;
+}
+
+.card input {
+    border: #18075e solid 2px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card button {
+    width: 100px;
+    height: 50px;
+    background-color: #18075e;
+    margin-top: 30px;
+    font: 700 20px Poppins;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
